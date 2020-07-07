@@ -11,5 +11,14 @@ const View = styled.View`
 const Text = styled.Text``;
 
 export default ({ navigation }) => (
-  <Text>Go to Login</Text>
+  <View>
+    <Text>Auth Home</Text>
+    <TouchableOpacity onPress={() => navigation.navigate("Login")}>
+      
+    </TouchableOpacity>
+    <TouchableOpacity onPress={() => navigation.navigate("Signup")}>
+      <Text>Go to Signup</Text>
+    </TouchableOpacity>
+    
+  </View>
 );
