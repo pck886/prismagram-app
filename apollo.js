@@ -1,2 +1,2 @@
-const apolloClientOptions = { uri: "http://localhost:4000/graphql" };
+const apolloClientOptions = { uri: "http://localhost:4000" };
 export default apolloClientOptions;
